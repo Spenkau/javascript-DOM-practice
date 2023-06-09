@@ -91,7 +91,6 @@ section {
   padding: 100px 230px;
   color: #555555;
   font-weight: 400;
-  font-family: "Roboto Slab", serif;
 }
 section h2 {
   text-transform: uppercase;
@@ -133,6 +132,80 @@ section .section-description {
 .about-us .slider {
   display: flex;
   gap: 20px;
+}
+
+.latest-works .button-panel {
+  display: flex;
+  gap: 30px;
+}
+.latest-works button {
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.latest-works button:active {
+  color: #c0301c;
+}
+
+.illustration-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.illustration-container .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 320px;
+  position: relative;
+  background-image: url("/img/gallery1.png");
+  color: #ffffff;
+  z-index: 1;
+}
+.illustration-container .content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(192, 48, 28, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+.illustration-container .content:hover::after {
+  opacity: 1;
+}
+.illustration-container .content span, .illustration-container .content p, .illustration-container .content button {
+  display: none;
+}
+.illustration-container .content span {
+  font-size: 18px;
+}
+.illustration-container .content p {
+  font-size: 12px;
+}
+.illustration-container .content button {
+  width: 100px;
+  height: 38px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(192, 48, 28, 0.6);
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+.illustration-container .content:hover {
+  background-color: #c0301c;
+}
+.illustration-container .content:hover span, .illustration-container .content:hover p, .illustration-container .content:hover button {
+  display: block;
+  z-index: 100;
 }
 
 /*# sourceMappingURL=styles.css.map */

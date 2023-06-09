@@ -104,7 +104,7 @@ section {
   padding: 100px 230px;
   color: #555555;
   font-weight: 400;
-  font-family: 'Roboto Slab', serif;
+  //font-family: 'Roboto Slab', serif;
 
   h2 {
     text-transform: uppercase;
@@ -151,5 +151,94 @@ section {
   .slider {
     display: flex;
     gap: 20px;
+  }
+}
+
+.latest-works {
+  .button-panel {
+    display: flex;
+    gap: 30px;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    &:active {
+      color: #c0301c;
+    }
+  }
+}
+
+.illustration-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: 320px;
+    position: relative;
+    background-image: url("/img/gallery1.png");
+    color: #ffffff;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(192, 48, 28, 0.6);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: -1;
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+
+    span, p, button {
+      display: none;
+    }
+
+    span {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    button {
+      width: 100px;
+      height: 38px;
+      letter-spacing: 1px;
+      line-height: 24px;
+      font-weight: 400;
+      color: rgba(192, 48, 28, 0.6);
+      text-transform: uppercase;
+      background-color: #ffffff;
+    }
+
+    &:hover {
+      background-color: #c0301c;
+    }
+
+    &:hover span,
+    &:hover p,
+    &:hover button {
+      display: block;
+      z-index: 100;
+    }
   }
 }
