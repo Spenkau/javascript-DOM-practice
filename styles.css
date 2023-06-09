@@ -265,4 +265,9 @@ section .section-description {
   z-index: 100;
 }
 
+.blogs li {
+  display: flex;
+  padding-bottom: 40px;
+}
+
 /*# sourceMappingURL=styles.css.map */
