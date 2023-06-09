@@ -75,6 +75,7 @@ header {
     text-align: center;
     line-height: 24px;
   }
+
   button {
     width: 181px;
     height: 51px;
@@ -90,11 +91,17 @@ header {
   }
 }
 
-.services {
+//SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+//SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+//SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+//SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+//SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
+  padding: 100px 230px;
   color: #555555;
   font-weight: 400;
   font-family: 'Roboto Slab', serif;
@@ -103,9 +110,10 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
+    line-height: 24px;
   }
 
-  p {
+  .section-description {
     font-weight: 400;
     line-height: 24px;
   }
@@ -124,7 +132,24 @@ header {
     width: 345px;
     text-align: center;
   }
+
   h3 {
     text-transform: uppercase;
+  }
+}
+
+.about-us {
+  background-color: #f8f8f8;
+
+  .text-content {
+    display: flex;
+    gap: 32px;
+    margin: 71px 0 63px 0;
+    text-align: justify;
+  }
+
+  .slider {
+    display: flex;
+    gap: 20px;
   }
 }
