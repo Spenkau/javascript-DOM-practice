@@ -242,3 +242,69 @@ section {
     }
   }
 }
+
+.service-advertising {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 370px;
+  background-image: url("/img/ad.png");
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(192, 48, 28, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &:hover {
+    background-color: #c0301c;
+  }
+
+  h2, button {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 50px;
+  }
+
+  button {
+    width: 181px;
+    height: 51px;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto Slab", serif;
+  }
+
+  &:hover h2,
+  &:hover button {
+    display: block;
+    z-index: 100;
+  }
+
+}
