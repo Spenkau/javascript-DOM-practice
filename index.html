@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="normalize.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <title>StartUP</title>
 </head>
 <body>
 <div class="welcome">
     <header>
-        <div class="logo">Startup</div>
+        <button class="open-modal logo">Startup</button>
         <nav>
             <ul class="navigate-panel">
                 <li><a href="#">Home</a></li>
@@ -57,8 +61,14 @@
         <h2>about us</h2>
         <p class="section-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <div class="text-content">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Loreipsum dolor sit amet. Lorem ipsum dolor et.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore
+                et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et
+                dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor invidunt ut labore et
+                dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam et justo dolores et ea rebum. Stet clita
+                kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore
+                aliquyam erat. Loreipsum dolor sit amet. Lorem ipsum dolor et.</p>
         </div>
         <!--        SLIDER          -->
         <div class="slider">
@@ -141,7 +151,7 @@
     </article>
     <section class="recent-blog-posts">
         <h2>recent blog posts</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+        <p class="section-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <ul class="blogs">
             <li class="blog">
                 <img src="/img/blog1.png" alt="blog">
@@ -193,87 +203,169 @@
             </li>
         </ul>
     </section>
-    <section class="sponsors">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+    <section class="clients">
+        <h2>clients</h2>
+        <ul class="client-icons">
+            <li><img src="/img/client1.png" alt="client icon"></li>
+            <li><img src="/img/client2.png" alt="client icon"></li>
+            <li><img src="/img/client3.png" alt="client icon"></li>
+            <li><img src="/img/client4.png" alt="client icon"></li>
+            <li><img src="/img/client5.png" alt="client icon"></li>
         </ul>
-        <div class="text-content">
-            <p>Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem
-                quibusdam et aut officiis debitis aut rerum”</p>
-            <p class="author">John Doe, Google Inc.</p>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <p class="matter">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”</p>
+                    <span class="author">John Doe, Google Inc.</span>
+                </div>
+                <div class="swiper-slide">
+                    <p class="matter">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”</p>
+                    <span class="author">John Doe, Google Inc.</span>
+                </div>
+                <div class="swiper-slide">
+                    <p class="matter">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”</p>
+                    <span class="author">John Doe, Google Inc.</span>
+                </div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
         </div>
+
     </section>
     <section class="get-in-touch">
         <h2>get in touch</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-        <form action="">
-            <ul class="left-side">
+        <p class="section-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+        <div class="get-in-touch-content">
+
+
+            <ul class="get-in-touch__left-side">
                 <li>
-                    <img class="icon" src="" alt="">
-                    <h3>address</h3>
+                    <div class="caption">
+                        <img class="icon" width="12" height="17" src="/img/address.png" alt="address">
+                        <h3>address</h3>
+                    </div>
                     <p>
-                        312, 7th Ave, New York
+                        312, 7th Ave, New York <br>
                         NY 101200, United States of America
                     </p>
                 </li>
                 <li>
-                    <img class="icon" src="" alt="">
-                    <h3>hotline (24x7)</h3>
+                    <div class="caption">
+                        <img class="icon" src="/img/mobile.png" alt="mobile">
+                        <h3>hotline (24x7)</h3>
+                    </div>
                     <p>
                         <a href="tel:+650052300">+65 0052 300</a>,
-                        <a href="tel:+6588251210">+65 88251 210</a>
+                        <a href="tel:+6588251210">+65 88251 210</a><br>
                         <a href="tel:+8801723511340">+88 01723 511 340</a>
                     </p>
                 </li>
                 <li>
-                    <img class="icon" src="" alt="">
-                    <h3>e-mail</h3>
+                    <div class="caption">
+                        <img class="icon" src="/img/email.png" alt="">
+                        <h3>e-mail</h3>
+                    </div>
                     <p>
                         <a href="mailto:shapedtheme@gmail.com">shapedtheme@gmail.com</a>
                         <a href="mailto:khalilkode@gmail.com">khalilkode@gmail.com</a>
                     </p>
                 </li>
             </ul>
-            <fieldset>
-                <label>
-                    <input type="text" placeholder="YOUR NAME"/>
-                </label>
-                <label>
-                    <input type="text" placeholder="YOUR E-MAIL"/>
-                </label>
-                <label>
-                    <input type="text" placeholder="YOUR SUBJECT"/>
-                </label>
-                <label>
-                    <input type="text" placeholder="COMPANY NAME"/>
-                </label>
-                <textarea name="message" cols="30" rows="10" placeholder="WRITE YOUR MESSAGE"></textarea>
-                <button>send message</button>
+            <form action="#" method="post" class="send-message">
+                <input type="text" placeholder="YOUR NAME" pattern="[A-Za-z ]+">
+                <input type="email" placeholder="YOUR E-MAIL">
+                <input type="text" placeholder="YOUR SUBJECT" pattern="[A-Za-z ]+">
+                <input type="text" placeholder="COMPANY NAME" pattern="[A-Za-z ]+">
+                <input class="message-field" type="text" placeholder="WRITE YOUR MESSAGE" pattern="[A-Za-z ]+">
+                <button class="send" type="submit">send message</button>
                 <p><span>*</span> We'll contact you as soon as possible. We don't reply on Monday.</p>
-            </fieldset>
-        </form>
+            </form>
+        </div>
     </section>
 </main>
 <footer>
     <ul>
         <li>
-            <button></button>
+            <button><img src="/img/social-media-twitter.png" alt="twitter"></button>
         </li>
         <li>
-            <button></button>
+            <button><img src="/img/social-media-twitter.png" alt="twitter"></button>
         </li>
         <li>
-            <button></button>
+            <button><img src="/img/social-media-twitter.png" alt="twitter"></button>
         </li>
         <li>
-            <button></button>
+            <button><img src="/img/social-media-twitter.png" alt="twitter"></button>
         </li>
     </ul>
     <p>© 2015 Startup, Designed by ShapedTheme</p>
 </footer>
+<section class="modal">
+    <div class="modal-about">
+        <button class="close-modal cross"><img width="30" height="30" src="img/close.png" alt="close modal"></button>
+        <h2>about us</h2>
+        <p>Welcome to Startup - the Creative Agency Template!<br>
+            <br>
+            At Startup, we believe in the power of creativity and innovation. We are a team of dedicated professionals
+            who are passionate about helping businesses thrive in the digital world. With our expertise in design,
+            development, and marketing, we provide tailored solutions that drive results. <br>
+            <br>
+            Our goal is to bring your vision to life. Whether you need a stunning website, a captivating branding
+            strategy, or a successful digital marketing campaign, we've got you covered. We combine cutting-edge
+            technology with artistic flair to create unique and impactful experiences for your audience. <br>
+            <br>
+            With Startup, you can expect a collaborative approach, where we listen to your ideas and goals. We work
+            closely with you to understand your business objectives and translate them into compelling designs and
+            strategies. Our attention to detail and commitment to excellence ensure that your project is delivered on
+            time and to your utmost satisfaction. <br>
+            <br>
+            Join us on this exciting journey as we transform your ideas into reality. Let's take your business to new
+            heights and make a lasting impression in the digital landscape. Get in touch with us today and let's create
+            something extraordinary together. <br>
+            <br>
+            Welcome to Startup - where creativity meets success!</p>
+        <button class="close-modal lucky-btn">good luck</button>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+    const swiper = new Swiper(
+        '.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                //
+            },
+
+            simulateTouch: true,
+            touchRatio: 1,
+            touchAngle: 45,
+            grabCursor: true,
+
+            keyboard: {
+                enabled: true,
+                onlyInViewport: true,
+                pageUpDown: true,
+            },
+            mousewheel: {
+                sensitivity: 1,
+            },
+        }
+    )
+</script>
+<script src="main.js"></script>
 </body>
 </html>
