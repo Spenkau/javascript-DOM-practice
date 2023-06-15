@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -7,6 +7,7 @@
 body {
   min-width: 960px;
   padding: 0;
+  font-family: "Roboto Slab", "Arial", sans-serif;
 }
 
 a {
@@ -20,6 +21,9 @@ li {
 
 button {
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 img {
@@ -44,6 +48,7 @@ header .logo {
   font-family: "Myriad Pro", sans-serif;
   font-size: 24px;
   padding-top: -4px;
+  color: white;
 }
 
 .navigate-panel {
@@ -90,17 +95,17 @@ section {
   align-items: center;
   padding: 100px 230px;
   color: #555555;
-  font-weight: 400;
 }
 section h2 {
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: "Montserrat", serif;
   line-height: 24px;
 }
 section .section-description {
-  font-weight: 400;
   line-height: 24px;
+  font-weight: 600;
 }
 
 .services-info {
@@ -131,6 +136,8 @@ section .section-description {
 }
 .about-us .slider {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   gap: 20px;
 }
 
@@ -153,6 +160,7 @@ section .section-description {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  padding: 0;
 }
 .illustration-container .content {
   display: flex;
@@ -245,7 +253,6 @@ section .section-description {
   text-align: center;
   font-size: 30px;
   line-height: 44px;
-  font-family: "Roboto Slab", serif;
   margin-bottom: 50px;
 }
 .service-advertising span {
@@ -261,7 +268,6 @@ section .section-description {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Roboto Slab", serif;
 }
 .service-advertising:hover h2, .service-advertising:hover button {
   display: block;
@@ -312,7 +318,6 @@ section .section-description {
 .top-content p {
   color: #777777;
   font-size: 13px;
-  font-family: "Roboto Slab", serif;
   font-weight: 600;
 }
 .top-content p span {
@@ -324,7 +329,6 @@ section .section-description {
   line-height: 24px;
   color: #555555;
   font-weight: 600;
-  font-family: "Roboto Slab", serif;
   margin: 23px 0 34px 0;
 }
 
@@ -334,9 +338,207 @@ section .section-description {
   letter-spacing: 1px;
   color: #ff0000;
   font-weight: bold;
-  font-family: "Roboto Slab", serif;
-  background-color: transparent;
+}
+
+.clients {
+  padding: 0 300px;
+  height: 475px;
+  background-color: #f8f8f8;
+}
+.clients h2 {
+  font-size: 0;
+}
+.clients .matter {
+  font-size: 18px;
+  width: 759px;
+  margin-bottom: 40px;
+}
+.clients .author {
+  font-size: 20px;
+}
+.clients .swiper {
+  width: 900px;
+  height: 300px;
+}
+.clients .swiper-slide {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.clients .pagination-bullets {
+  width: 14px;
+  height: 14px;
+  background-color: #dddddd;
+}
+.clients .pagination-bullets:hover {
+  background-color: #c0301c;
+}
+
+.client-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.get-in-touch-content {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.get-in-touch__left-side {
+  justify-content: flex-start;
+  margin-right: 160px;
+}
+.get-in-touch__left-side h3 {
+  text-transform: uppercase;
+}
+.get-in-touch__left-side a {
+  color: #555555;
+}
+.get-in-touch__left-side li {
+  margin-bottom: 37px;
+}
+.get-in-touch__left-side li h3, .get-in-touch__left-side li p {
+  margin: 0;
+}
+.get-in-touch__left-side li p {
+  margin-left: 23px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.get-in-touch__left-side li .caption {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 17px;
+}
+.get-in-touch__left-side li img {
+  align-self: flex-start;
+}
+.get-in-touch__left-side li p {
+  flex-basis: 100%;
+}
+
+.send-message {
+  display: flex;
+  width: 760px;
+  flex-wrap: wrap;
   border: none;
+  font-weight: bold;
+}
+.send-message input, .send-message button, .send-message p {
+  width: 50%;
+}
+.send-message input {
+  width: 350px;
+  height: 45px;
+  padding-left: 17px;
+  margin-bottom: 20px;
+}
+.send-message input:first-child, .send-message input:nth-child(3) {
+  margin-right: 30px;
+}
+.send-message input:valid {
+  border: 1px solid #555555;
+}
+.send-message input:invalid {
+  border: 1px solid #ff0000;
+}
+.send-message .message-field {
+  width: 96%;
+  height: 105px;
+}
+.send-message button {
+  align-self: flex-start;
+  width: 170px;
+  height: 45px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #555555;
+}
+.send-message p {
+  width: 492px;
+  align-items: center;
+  margin-left: 38px;
+}
+.send-message p span {
+  color: red;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c0301c;
+  padding: 100px 0;
+}
+footer ul {
+  display: flex;
+  gap: 13px;
+  padding: 0;
+}
+footer button {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+footer p {
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: white;
+  width: 40%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.lucky-btn {
+  padding: 15px 25px;
+  border: 4px solid black;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.cross {
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
