@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="close modal window icon">
+      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qut6twVRrliedo1Oepz0ADq4Pl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work_Data/!milatask&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work_Data\!PRACTICE1\img" />
+      <recent name="D:\Work_Data\PRACTICE1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="" />
+      <created>1686215121949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686215121949</updated>
+      <workItem from="1686215123174" duration="5049000" />
+      <workItem from="1686289154073" duration="993000" />
+      <workItem from="1686290229195" duration="5143000" />
+      <workItem from="1686295452870" duration="11722000" />
+      <workItem from="1686310246998" duration="4000" />
+      <workItem from="1686329837776" duration="1587000" />
+      <workItem from="1686375264870" duration="6364000" />
+      <workItem from="1686387556448" duration="570000" />
+      <workItem from="1686478837106" duration="25000" />
+      <workItem from="1686480015266" duration="1774000" />
+      <workItem from="1686502864344" duration="88000" />
+      <workItem from="1686556423918" duration="474000" />
+      <workItem from="1686568610239" duration="101000" />
+      <workItem from="1686591840892" duration="2395000" />
+      <workItem from="1686634514205" duration="5540000" />
+      <workItem from="1686655616905" duration="73000" />
+      <workItem from="1686731177391" duration="13000" />
+      <workItem from="1686739842549" duration="994000" />
+      <workItem from="1686743299669" duration="798000" />
+      <workItem from="1686744164162" duration="4876000" />
+      <workItem from="1686807851973" duration="1061000" />
+    </task>
+    <task id="LOCAL-00001" summary="project initialized">
+      <created>1686290407592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686290407592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="layout without styles added">
+      <created>1686290487697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686290487697</updated>
+    </task>
+    <task id="LOCAL-00003" summary="layout without styles added">
+      <created>1686290726052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686290726052</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first viewport has been styled">
+      <created>1686294727651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686294727651</updated>
+    </task>
+    <task id="LOCAL-00005" summary="second viewport has been styled">
+      <created>1686296755997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686296755997</updated>
+    </task>
+    <task id="LOCAL-00006" summary="third viewport has been styled">
+      <created>1686297727052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686297727052</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fourth viewport has been styled">
+      <created>1686300380587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686300380587</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fifth viewport has been styled">
+      <created>1686301092116</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686301092116</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sixth viewport has been styled">
+      <created>1686304491259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686304491259</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sixth viewport has been styled">
+      <created>1686305988127</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686305988127</updated>
+    </task>
+    <task id="LOCAL-00011" summary="globally changed styles">
+      <created>1686807879988</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686807879988</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixings with validation, slider with SliderJS added">
+      <created>1686807925026</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686807925026</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added functional of modal window">
+      <created>1686807944517</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686807944517</updated>
+    </task>
+    <task id="LOCAL-00014" summary="close modal window icon">
+      <created>1686807962574</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686807962574</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project initialized" />
+    <MESSAGE value="layout without styles added" />
+    <MESSAGE value="first viewport has been styled" />
+    <MESSAGE value="second viewport has been styled" />
+    <MESSAGE value="third viewport has been styled" />
+    <MESSAGE value="fourth viewport has been styled" />
+    <MESSAGE value="fifth viewport has been styled" />
+    <MESSAGE value="sixth viewport has been styled" />
+    <MESSAGE value="globally changed styles" />
+    <MESSAGE value="fixings with validation, slider with SliderJS added" />
+    <MESSAGE value="added functional of modal window" />
+    <MESSAGE value="close modal window icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="close modal window icon" />
+  </component>
+</project>
