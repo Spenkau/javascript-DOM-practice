@@ -6,6 +6,8 @@ const form = document.querySelector('.send-message');
 const inputs = form.getElementsByTagName('input');
 const submitBtn = document.querySelector('.send');
 
+AOS.init();
+
 console.log(inputs[0].value)
 
 for (let i = 0; i < 5; i++) {

@@ -8,6 +8,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>StartUP</title>
 </head>
 <body>
@@ -37,19 +38,19 @@
         <h2>services</h2>
         <p class="section-description">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <ul class="services-info">
-            <li>
+            <li data-aos="fade-up">
                 <img src="/img/service1.png" alt="service icon">
                 <h3>clean typography</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
                     harum ex magni, dicta impedit. Lorem ipsum.</p>
             </li>
-            <li>
+            <li data-aos="fade-up">
                 <img src="/img/service2.png" alt="service icon">
                 <h3>rock solid code</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
                     harum ex magni, dicta impedit. Lorem ipsum.</p>
             </li>
-            <li>
+            <li data-aos="fade-up">
                 <img src="/img/service3.png" alt="service icon">
                 <h3>expert support</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
@@ -72,10 +73,10 @@
         </div>
         <!--        SLIDER          -->
         <div class="slider">
-            <img src="img/about-us1.png" alt="">
-            <img src="img/about-us1.png" alt="">
-            <img src="img/about-us1.png" alt="">
-            <img src="img/about-us1.png" alt="">
+            <img src="img/about-us1.png" alt="" data-aos="flip-left">
+            <img src="img/about-us1.png" alt="" data-aos="flip-left">
+            <img src="img/about-us1.png" alt="" data-aos="flip-left">
+            <img src="img/about-us1.png" alt="" data-aos="flip-left">
         </div>
     </section>
     <section class="latest-works">
@@ -97,7 +98,7 @@
                 <button>Strategy</button>
             </li>
         </ul>
-        <ul class="illustration-container">
+        <ul class="illustration-container" data-aos="zoom-in">
             <li class="content">
                 <span>Hair Dresser</span>
                 <p>Branding</p>
@@ -154,8 +155,8 @@
         <p class="section-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <ul class="blogs">
             <li class="blog">
-                <img src="/img/blog1.png" alt="blog">
-                <div class="right-side">
+                <img src="/img/blog1.png" alt="blog"  data-aos="fade-right">
+                <div class="right-side"  data-aos="fade-left">
                     <ul class="info-container">
                         <li class="top-content">
                             <div class="date">18 OCT</div>
@@ -178,8 +179,8 @@
                 </div>
             </li>
             <li class="blog">
-                <img src="/img/blog2.png" alt="blog">
-                <div class="right-side">
+                <img src="/img/blog2.png" alt="blog" data-aos="fade-right">
+                <div class="right-side"  data-aos="fade-left">
                     <ul class="info-container">
                         <li class="top-content">
                             <div class="date">18 OCT</div>
@@ -237,7 +238,7 @@
         </div>
 
     </section>
-    <section class="get-in-touch">
+    <section class="get-in-touch" data-aos="fade-up">
         <h2>get in touch</h2>
         <p class="section-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         <div class="get-in-touch-content">
@@ -366,6 +367,8 @@
         }
     )
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script src="main.js"></script>
 </body>
 </html>

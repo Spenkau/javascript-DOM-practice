@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,6 +8,8 @@
 body {
   min-width: 960px;
   padding: 0;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  //overflow-x: hidden;
 }
 
 a {
@@ -21,6 +23,9 @@ li {
 
 button {
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 img {
@@ -46,6 +51,7 @@ header {
     font-family: "Myriad Pro", sans-serif;
     font-size: 24px;
     padding-top: -4px;
+    color: white;
   }
 }
 
@@ -59,7 +65,6 @@ header {
 .welcome-phrase {
   display: flex;
   flex-direction: column;
-  //justify-content: center;
   margin: auto 0;
   align-items: center;
 
@@ -103,19 +108,19 @@ section {
   align-items: center;
   padding: 100px 230px;
   color: #555555;
-  font-weight: 400;
-  //font-family: 'Roboto Slab', serif;
+
 
   h2 {
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: "Montserrat", serif;
     line-height: 24px;
   }
 
   .section-description {
-    font-weight: 400;
     line-height: 24px;
+    font-weight: 600;
   }
 }
 
@@ -150,6 +155,8 @@ section {
 
   .slider {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     gap: 20px;
   }
 }
@@ -175,8 +182,10 @@ section {
 
 .illustration-container {
   display: grid;
+  //width: 100%;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  padding: 0;
 
   .content {
     display: flex;
@@ -284,7 +293,6 @@ section {
     text-align: center;
     font-size: 30px;
     line-height: 44px;
-    font-family: "Roboto Slab", serif;
     margin-bottom: 50px;
   }
 
@@ -302,7 +310,6 @@ section {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
-    font-family: "Roboto Slab", serif;
   }
 
   &:hover h2,
@@ -360,7 +367,6 @@ section {
   p {
     color: #777777;
     font-size: 13px;
-    font-family: "Roboto Slab", serif;
     font-weight: 600;
 
     span {
@@ -375,7 +381,6 @@ section {
     line-height: 24px;
     color: #555555;
     font-weight: 600;
-    font-family: "Roboto Slab", serif;
     margin: 23px 0 34px 0;
   }
 }
@@ -387,8 +392,232 @@ section {
     letter-spacing: 1px;
     color: #ff0000;
     font-weight: bold;
-    font-family: "Roboto Slab", serif;
-    background-color: transparent;
-    border: none;
   }
+}
+
+.clients {
+  padding: 0 300px;
+  height: 475px;
+  background-color: #f8f8f8;
+
+  h2 {
+    font-size: 0;
+  }
+
+  .matter {
+    font-size: 18px;
+    width: 759px;
+    margin-bottom: 40px;
+  }
+
+  .author {
+    font-size: 20px;
+  }
+
+  .swiper {
+    width: 900px;
+    height: 300px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pagination-bullets {
+    width: 14px;
+    height: 14px;
+    background-color: #dddddd;
+
+    &:hover {
+      background-color: #c0301c;
+    }
+  }
+}
+
+.client-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.get-in-touch-content {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+
+}
+
+.get-in-touch__left-side {
+  justify-content: flex-start;
+  margin-right: 160px;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  a {
+    color: #555555;
+  }
+
+  li {
+    margin-bottom: 37px;
+    h3, p {
+      margin: 0;
+    }
+
+    p {
+      margin-left: 23px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .caption {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 17px;
+    }
+
+    img {
+      align-self: flex-start;
+    }
+
+    p {
+      flex-basis: 100%;
+    }
+  }
+}
+
+.send-message {
+  display: flex;
+  width: 760px;
+  flex-wrap: wrap;
+  border: none;
+  font-weight: bold;
+
+
+  input, button, p {
+    width: 50%;
+  }
+
+  input {
+    width: 350px;
+    height: 45px;
+    padding-left: 17px;
+    margin-bottom: 20px;
+
+    &:first-child, &:nth-child(3) {
+      margin-right: 30px;
+    }
+
+    &:valid {
+      border: 1px solid #555555;
+    }
+
+    &:invalid {
+      border: 1px solid #ff0000;
+    }
+  }
+
+  .message-field {
+    width: 96%;
+    height: 105px;
+  }
+
+  button {
+    align-self: flex-start;
+    width: 170px;
+    height: 45px;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid #555555;
+  }
+
+  p {
+    width: 492px;
+    align-items: center;
+    margin-left: 38px;
+    span {
+      color: red;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c0301c;
+  padding: 100px 0;
+
+  ul {
+    display: flex;
+    gap: 13px;
+    padding: 0;
+  }
+
+  button {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: white;
+  width: 40%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.lucky-btn {
+  padding: 15px 25px;
+  border: 4px solid black;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.cross {
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
