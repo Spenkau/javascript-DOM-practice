@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="aos JS connected with project, animations added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="added functional with libs: cleave &amp; parsley" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work_Data/bootstrap-cleaning",
+    "last_opened_file_path": "D:/Work_Data/!PRACTICE1",
     "list.type.of.created.stylesheet": "SCSS",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -110,6 +100,7 @@
       <workItem from="1687155095195" duration="9000" />
       <workItem from="1687155230862" duration="7000" />
       <workItem from="1687155339761" duration="27000" />
+      <workItem from="1687168850749" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="project initialized">
       <created>1686290407592</created>
@@ -223,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686896070789</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added last images">
+      <created>1687168866657</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687168866657</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added functional with libs: cleave &amp; parsley">
+      <created>1687168927894</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687168927894</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +260,8 @@
     <MESSAGE value="close modal window icon" />
     <MESSAGE value="images" />
     <MESSAGE value="aos JS connected with project, animations added" />
-    <option name="LAST_COMMIT_MESSAGE" value="aos JS connected with project, animations added" />
+    <MESSAGE value="added last images" />
+    <MESSAGE value="added functional with libs: cleave &amp; parsley" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functional with libs: cleave &amp; parsley" />
   </component>
 </project>
