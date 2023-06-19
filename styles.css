@@ -31,6 +31,14 @@ img {
   height: auto;
 }
 
+.hidden {
+  display: none;
+}
+
+.tabHidden {
+  display: none !important;
+}
+
 .welcome {
   display: flex;
   flex-direction: column;
@@ -134,11 +142,20 @@ section .section-description {
   margin: 71px 0 63px 0;
   text-align: justify;
 }
-.about-us .slider {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  gap: 20px;
+.about-us .text-content p {
+  width: 590px;
+}
+.about-us .swiper-btn {
+  width: 36px;
+  height: 39px;
+  background-color: #555555;
+  color: #dddddd;
+}
+.about-us .swiper-btn:after {
+  font-size: 14px;
+}
+.about-us .swiper-btn:hover {
+  background-color: #c0301c;
 }
 
 .latest-works .button-panel {
@@ -152,7 +169,7 @@ section .section-description {
   font-size: 16px;
   line-height: 24px;
 }
-.latest-works button:active {
+.latest-works .active {
   color: #c0301c;
 }
 
@@ -162,19 +179,20 @@ section .section-description {
   grid-gap: 30px;
   padding: 0;
 }
-.illustration-container .content {
+
+.illustration-content {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 360px;
   height: 320px;
-  position: relative;
-  background-image: url("/img/gallery1.png");
   color: #ffffff;
   z-index: 1;
+  overflow: hidden;
 }
-.illustration-container .content::after {
+.illustration-content::after {
   content: "";
   position: absolute;
   top: 0;
@@ -184,21 +202,27 @@ section .section-description {
   background-color: rgba(192, 48, 28, 0.6);
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: -1;
+  z-index: 2;
 }
-.illustration-container .content:hover::after {
+.illustration-content:hover::after {
   opacity: 1;
 }
-.illustration-container .content span, .illustration-container .content p, .illustration-container .content button {
+.illustration-content img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.illustration-content span, .illustration-content p, .illustration-content button {
   display: none;
 }
-.illustration-container .content span {
+.illustration-content span {
   font-size: 18px;
 }
-.illustration-container .content p {
+.illustration-content p {
   font-size: 12px;
 }
-.illustration-container .content button {
+.illustration-content button {
   width: 100px;
   height: 38px;
   letter-spacing: 1px;
@@ -208,10 +232,10 @@ section .section-description {
   text-transform: uppercase;
   background-color: #ffffff;
 }
-.illustration-container .content:hover {
+.illustration-content:hover {
   background-color: #c0301c;
 }
-.illustration-container .content:hover span, .illustration-container .content:hover p, .illustration-container .content:hover button {
+.illustration-content:hover span, .illustration-content:hover p, .illustration-content:hover button {
   display: block;
   z-index: 100;
 }
@@ -356,24 +380,12 @@ section .section-description {
 .clients .author {
   font-size: 20px;
 }
-.clients .swiper {
-  width: 900px;
-  height: 300px;
+.clients .swiper-pagination-bullet-active {
+  background-color: #ff0000;
 }
-.clients .swiper-slide {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.clients .pagination-bullets {
+.clients .swiper-pagination-bullet {
   width: 14px;
   height: 14px;
-  background-color: #dddddd;
-}
-.clients .pagination-bullets:hover {
-  background-color: #c0301c;
 }
 
 .client-icons {
@@ -381,6 +393,7 @@ section .section-description {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 90px;
 }
 
 .get-in-touch-content {
@@ -417,6 +430,7 @@ section .section-description {
   margin-bottom: 17px;
 }
 .get-in-touch__left-side li img {
+  margin: auto 0;
   align-self: flex-start;
 }
 .get-in-touch__left-side li p {
@@ -439,7 +453,7 @@ section .section-description {
   padding-left: 17px;
   margin-bottom: 20px;
 }
-.send-message input:first-child, .send-message input:nth-child(3) {
+.send-message input:first-child, .send-message input:nth-child(3), .send-message input:nth-child(5) {
   margin-right: 30px;
 }
 .send-message input:valid {
@@ -498,7 +512,6 @@ footer p {
 }
 
 .modal {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -521,7 +534,7 @@ footer p {
   color: black;
   background-color: white;
   width: 40%;
-  height: 70%;
+  height: auto;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -539,6 +552,22 @@ footer p {
   position: absolute;
   right: 15px;
   top: 15px;
+}
+
+.first-swiper {
+  width: 1139px;
+  height: 250px;
+}
+
+.second-swiper {
+  text-align: center;
+  margin-top: 84px;
+  width: 800px;
+  height: 190px;
+}
+
+.swiper-pagination {
+  position: static;
 }
 
 /*# sourceMappingURL=styles.css.map */

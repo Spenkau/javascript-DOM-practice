@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="images">
+    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="aos JS connected with project, animations added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gallery4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
@@ -26,7 +30,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/normalize.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/styles.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/styles.scss" root0="FORCE_HIGHLIGHTING" />
@@ -46,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work_Data/!PRACTICE1",
+    "last_opened_file_path": "D:/Work_Data/bootstrap-cleaning",
     "list.type.of.created.stylesheet": "SCSS",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -56,6 +59,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work_Data\!PRACTICE1\img" />
       <recent name="D:\Work_Data\PRACTICE1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work_Data\!PRACTICE1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +97,19 @@
       <workItem from="1686825914931" duration="7000" />
       <workItem from="1686826993496" duration="7000" />
       <workItem from="1686827006040" duration="313000" />
-      <workItem from="1686895715789" duration="264000" />
+      <workItem from="1686895715789" duration="755000" />
+      <workItem from="1686897185571" duration="2838000" />
+      <workItem from="1686903309024" duration="19000" />
+      <workItem from="1686912324693" duration="8930000" />
+      <workItem from="1686943210967" duration="1317000" />
+      <workItem from="1686944570405" duration="2764000" />
+      <workItem from="1686983009889" duration="6677000" />
+      <workItem from="1687119937542" duration="1220000" />
+      <workItem from="1687154906611" duration="7000" />
+      <workItem from="1687155021224" duration="32000" />
+      <workItem from="1687155095195" duration="9000" />
+      <workItem from="1687155230862" duration="7000" />
+      <workItem from="1687155339761" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="project initialized">
       <created>1686290407592</created>
@@ -198,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686816413742</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="aos JS connected with project, animations added">
+      <created>1686896070789</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686896070789</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +254,7 @@
     <MESSAGE value="added functional of modal window" />
     <MESSAGE value="close modal window icon" />
     <MESSAGE value="images" />
-    <option name="LAST_COMMIT_MESSAGE" value="images" />
+    <MESSAGE value="aos JS connected with project, animations added" />
+    <option name="LAST_COMMIT_MESSAGE" value="aos JS connected with project, animations added" />
   </component>
 </project>
