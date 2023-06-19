@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="added functional with libs: cleave &amp; parsley" />
+    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="validation fixings, cleave files upload">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-us1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-us2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +107,7 @@
       <workItem from="1687155095195" duration="9000" />
       <workItem from="1687155230862" duration="7000" />
       <workItem from="1687155339761" duration="27000" />
-      <workItem from="1687168850749" duration="199000" />
+      <workItem from="1687168850749" duration="3879000" />
     </task>
     <task id="LOCAL-00001" summary="project initialized">
       <created>1686290407592</created>
@@ -228,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687168927894</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="validation fixings">
+      <created>1687169074909</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687169074909</updated>
+    </task>
+    <task id="LOCAL-00020" summary="validation fixings, cleave files upload">
+      <created>1687169248321</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687169248321</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +283,8 @@
     <MESSAGE value="aos JS connected with project, animations added" />
     <MESSAGE value="added last images" />
     <MESSAGE value="added functional with libs: cleave &amp; parsley" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functional with libs: cleave &amp; parsley" />
+    <MESSAGE value="validation fixings" />
+    <MESSAGE value="validation fixings, cleave files upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation fixings, cleave files upload" />
   </component>
 </project>
