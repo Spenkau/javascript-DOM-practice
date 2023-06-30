@@ -27,7 +27,7 @@ var cleavePhone = new Cleave(inputPhone, {
     phoneRegionCode: 'BY',
     delimiter: ' ',
     blocks: [2, 3, 2, 2],
-    prefix:'+375 ',
+    prefix: '+375 ',
     noImmediatePrefix: true
 });
 
@@ -123,16 +123,16 @@ const handleModalOpening = () => {
     console.log('click')
     setTimeout(() => {
 
-        closeModalLuckBtn.innerText = 'good luck';
-
         modal.classList.remove('hidden');
 
         closeModalBtn.addEventListener('click', handleModalClosing);
 
         document.addEventListener('keydown', (event) => {
-            event.preventDefault();
 
-            if (event.key === 'Escape') handleModalClosing();
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                handleModalClosing();
+            }
         });
 
         window.addEventListener("click", (event) => {
@@ -142,9 +142,7 @@ const handleModalOpening = () => {
         });
 
         closeModalLuckBtn.addEventListener('click', () => {
-            closeModalLuckBtn.innerText = 'Thank you!';
-
-            setTimeout(handleModalClosing, 1000);
+            handleModalClosing()
         })
     }, 500)
 }
