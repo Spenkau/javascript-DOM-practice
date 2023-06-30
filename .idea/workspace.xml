@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="slider hovering fixed">
+    <list default="true" id="2bd67da3-96b4-4f91-8829-8bf5c4fcdf35" name="Changes" comment="㊙️">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
@@ -46,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work_Data/!PRACTICE1",
+    "last_opened_file_path": "D:/Work_Data/1finished/!PRACTICE1",
     "list.type.of.created.stylesheet": "SCSS",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
@@ -113,7 +111,16 @@
       <workItem from="1687260120522" duration="8000" />
       <workItem from="1687333969889" duration="92000" />
       <workItem from="1687342167076" duration="2000" />
-      <workItem from="1687343020930" duration="378000" />
+      <workItem from="1687343020930" duration="1028000" />
+      <workItem from="1687345280858" duration="52000" />
+      <workItem from="1687346709067" duration="115000" />
+      <workItem from="1687361237627" duration="3000" />
+      <workItem from="1687379265090" duration="102000" />
+      <workItem from="1687412316596" duration="2169000" />
+      <workItem from="1687706956301" duration="1196000" />
+      <workItem from="1687757828010" duration="80000" />
+      <workItem from="1687859913493" duration="37000" />
+      <workItem from="1688151285157" duration="406000" />
     </task>
     <task id="LOCAL-00001" summary="project initialized">
       <created>1686290407592</created>
@@ -262,7 +269,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687172810521</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="slider hovering fixed">
+      <created>1687343452963</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687343452963</updated>
+    </task>
+    <task id="LOCAL-00023" summary="🉐">
+      <created>1688151675484</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1688151675484</updated>
+    </task>
+    <task id="LOCAL-00024" summary="㊙️">
+      <created>1688151690504</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688151690504</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +327,8 @@
     <MESSAGE value="validation fixings" />
     <MESSAGE value="validation fixings, cleave files upload" />
     <MESSAGE value="slider hovering fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="slider hovering fixed" />
+    <MESSAGE value="" />
+    <MESSAGE value="㊙️" />
+    <option name="LAST_COMMIT_MESSAGE" value="㊙️" />
   </component>
 </project>
